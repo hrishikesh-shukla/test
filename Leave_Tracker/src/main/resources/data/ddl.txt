@@ -1,0 +1,39 @@
+--> create database leave_tracker;
+
+--> create table leave_details(
+	employee_id int(15) foreign key,
+	name varchar(64) not null,
+	country varchar(2) not null, dropdown
+	project_unit varchar(15) not null,
+	month varchar(3) not null,
+	year number not null,
+	number_of_days number not null,
+	leave_start_date date not null,
+	leave_end_date date not null,
+	comments varchar(250) nullable,
+	team varchar(64) nullable, dropdown
+	cre_date datetime not null default CURRENT_TIMESTAMP,
+	cre_user varchar(64) not null,
+	upd_date datetime not null default CURRENT_TIMESTAMP,
+	upd_user varchar(64) not null
+	);
+
+--> create table hist_leave_details(
+	sr_no int AI PK, 
+	Action varchar(1), 
+	comments varchar(250) nullable, 
+	country varchar(2) not null, dropdown 
+	cre_user varchar(64) not null, 
+	cre_date datetime not null default CURRENT_TIMESTAMP, 
+	employee_id int(15), 
+	leave_end_date date not null,
+	leave_start_date date not null,
+	month varchar(3) not null,
+	name varchar(64) not null,
+	number_of_days number not null,
+	project_unit varchar(15) not null,
+	team varchar(64) nullable, dropdown,
+	upd_user varchar(64) not null
+	upd_date datetime not null default CURRENT_TIMESTAMP,
+	year number not null
+	);

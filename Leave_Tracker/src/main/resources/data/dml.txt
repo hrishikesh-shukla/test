@@ -1,0 +1,17 @@
+-->INSERT INTO `leave_tracker`.`leave_details` (`sr_no`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`, `year`) 
+   VALUES ('1', 'leave request', 'india', 'admin', '2023-11-11 13:23:44', '122', '2023-11-12', '2023-11-10', 'November', 'Siddharth', '2', 'FSADM', 'atoms', 'admin', '2023-11-11 13:23:44', '2023');
+
+-->INSERT INTO `leave_tracker`.`leave_details` (`sr_no`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`, `year`) 
+   VALUES ('2', 'Health issue', 'india', 'user', '2023-11-11 13:23:44', '122', '2023-11-12', '2023-11-10', 'November', 'Vikrant', '2', 'FSADM', 'astrix', 'admin', '2023-11-11 13:23:44', '2023');
+
+-->INSERT INTO `leave_tracker`.`leave_details` (`sr_no`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`, `year`) 
+   VALUES ('3', 'leave request', 'india', 'admin', '2023-11-11 13:23:44', '122', '2023-11-12', '2023-11-10', 'November', 'Abhishek', '2', 'FSADM', 'avr', 'admin', '2023-11-11 13:23:44', '2023');
+
+-->INSERT INTO `leave_tracker`.`hist_leave_details` (`sr_no`, `Action`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`) 
+   VALUES ('1', 'A', 'leave-granted', 'india', 'admin', '2023-10-10', '122', '2023-10-11', '2023-10-10', 'October', 'Siddhartha', '1', 'FSADM', 'Atmos', 'admin', '2023-11-11 13:23:44');
+
+-->INSERT INTO `leave_tracker`.`hist_leave_details` (`sr_no`, `Action`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`) 
+   VALUES ('2', 'A', 'health issue', 'india', 'user', '2023-10-10', '122', '2023-10-11', '2023-10-10', 'October', '', '1', 'FSADM', 'astrix', 'admin', '2023-11-11 13:23:44');
+
+-->INSERT INTO `leave_tracker`.`hist_leave_details` (`sr_no`, `Action`, `comments`, `country`, `cre_user`, `cre_date`, `employee_id`, `leave_end_date`, `leave_start_date`, `month`, `name`, `no_of_days`, `project_unit`, `team`, `upd_user`, `upd_date`) 
+   VALUES ('3', 'A', 'leave request', 'india', 'admin', '2023-10-10', '122', '2023-10-11', '2023-10-10', 'October', 'Abhishek', '1', 'FSADM', 'avr', 'admin', '2023-11-11 13:23:44');
